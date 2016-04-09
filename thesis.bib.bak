@@ -1,0 +1,412 @@
+@inproceedings{papazoglou2003service,
+  title={Service-oriented computing: Concepts, characteristics and directions},
+  author={Papazoglou, Mike P},
+  booktitle={Proceedings of the Fourth International Conference on Web Information Systems Engineering, 2003. WISE 2003.},
+  pages={3--12},
+  year={2003},
+  organization={IEEE}
+}
+@article{papazoglou2008service,
+  title={Service-oriented computing: a research roadmap},
+  author={Papazoglou, Michael P and Traverso, Paolo and Dustdar, Schahram and Leymann, Frank},
+  journal={International Journal of Cooperative Information Systems},
+  volume={17},
+  number={02},
+  pages={223--255},
+  year={2008},
+  publisher={World Scientific}
+}
+@book{zhang2007services,
+  title={Services computing},
+  author={Zhang, Liang-Jie and Zhang, Jia and Cai, Hong},
+  year={2007},
+  publisher={Springer}
+}
+@book{papazoglou2008web,
+  title={Web services: principles and technology},
+  author={Papazoglou, Michael},
+  year={2008},
+  publisher={Pearson Education}
+}
+@inproceedings{zeng2003quality,
+  title={Quality driven web services composition},
+  author={Zeng, Liangzhao and Benatallah, Boualem and Dumas, Marlon and Kalagnanam, Jayant and Sheng, Quan Z},
+  booktitle={Proceedings of the 12th international conference on World Wide Web},
+  pages={411--421},
+  year={2003},
+  organization={ACM}
+}
+@article{zeng2004qos,
+  title={Qos-aware middleware for web services composition},
+  author={Zeng, Liangzhao and Benatallah, Boualem and Ngu, Anne HH and Dumas, Marlon and Kalagnanam, Jayant and Chang, Henry},
+  journal={Software Engineering, IEEE Transactions on},
+  volume={30},
+  number={5},
+  pages={311--327},
+  year={2004},
+  publisher={IEEE}
+}
+@article{sirin2004htn,
+  title={HTN planning for web service composition using SHOP2},
+  author={Sirin, Evren and Parsia, Bijan and Wu, Dan and Hendler, James and Nau, Dana},
+  journal={Web Semantics: Science, Services and Agents on the World Wide Web},
+  volume={1},
+  number={4},
+  pages={377--396},
+  year={2004},
+  publisher={Elsevier}
+}
+@inproceedings{kun2009markov,
+  title={Markov-htn planning approach to enhance flexibility of automatic web service composition},
+  author={Kun, Chen and Xu, Jiuyun and Reiff-Marganiec, Stephan},
+  booktitle={Web Services, 2009. ICWS 2009. IEEE International Conference on},
+  pages={9--16},
+  year={2009},
+  organization={IEEE}
+}
+@inproceedings{rodriguez2011automatic,
+  title={Automatic web service composition with a heuristic-based search algorithm},
+  author={Rodriguez-Mier, Pablo and Mucientes, Manuel and Lama, Manuel},
+  booktitle={Web Services (ICWS), 2011 IEEE International Conference on},
+  pages={81--88},
+  year={2011},
+  organization={IEEE}
+}
+@article{liang2005and,
+  title={AND/OR graph and search algorithm for discovering composite web services},
+  author={Liang, Qianhui Althea and Su, Stanley YW},
+  journal={International Journal of Web Services Research (IJWSR)},
+  volume={2},
+  number={4},
+  pages={48--67},
+  year={2005},
+  publisher={IGI Global}
+}
+@article{stein2009flexible,
+  title={Flexible provisioning of web service workflows},
+  author={Stein, Sebastian and Payne, Terry R and Jennings, Nicholas R},
+  journal={ACM Transactions on Internet Technology (TOIT)},
+  volume={9},
+  number={1},
+  pages={2},
+  year={2009},
+  publisher={ACM}
+}
+@article{deng2014service,
+  title={Service selection for composition with QoS correlations},
+  author={Deng, Shuiguang and Wu, Hongyue and Hu, Daning and Zhao, J Leon},
+  journal={IEEE Transactions on Services Computing},
+  number={1},
+  pages={1--1},
+  year={2014},
+  publisher={IEEE}
+}
+@article{yu2013efficient,
+  title={Efficient service skyline computation for composite service selection},
+  author={Yu, Qi and Bouguettaya, Athman},
+  journal={Knowledge and Data Engineering, IEEE Transactions on},
+  volume={25},
+  number={4},
+  pages={776--789},
+  year={2013},
+  publisher={IEEE}
+}
+@inproceedings{alrifai2009combining,
+  title={Combining global optimization with local selection for efficient QoS-aware service composition},
+  author={Alrifai, Mohammad and Risse, Thomas},
+  booktitle={Proceedings of the 18th international conference on World wide web},
+  pages={881--890},
+  year={2009},
+  organization={ACM}
+}
+@article{sun2011qssa,
+  title={QSSA: A QoS-aware service selection approach},
+  author={Sun, Qibo and Wang, Shangguang and Zou, Hua and Yang, Fangchun},
+  journal={International Journal of Web and Grid Services},
+  volume={7},
+  number={2},
+  pages={147--169},
+  year={2011},
+  publisher={Inderscience}
+}
+@article{sgwang2011gdecomqos,
+  title={基于全局 QoS 约束分解的 Web 服务动态选择},
+  author={王尚广 and 孙其博 and 杨放春},
+  journal={软件学报},
+  volume={22},
+  number={7},
+  pages={1426--1439},
+  year={2011}
+}
+@article{shliu2007gaqos,
+  title={一种服务聚合中 QoS 全局最优服务动态选择算法},
+  author={刘书雷 and 刘云翔 and 张帆 and 唐桂芬 and 景宁},
+  journal={软件学报},
+  volume={18},
+  number={3},
+  pages={646--656},
+  year={2007}
+}
+@inproceedings{alrifai2009scalable,
+  title={A scalable approach for qos-based web service selection},
+  author={Alrifai, Mohammad and Risse, Thomas and Dolog, Peter and Nejdl, Wolfgang},
+  booktitle={Service-Oriented Computing--ICSOC 2008 Workshops},
+  pages={190--199},
+  year={2009},
+  organization={Springer}
+}
+@inproceedings{alrifai2010selecting,
+  title={Selecting skyline services for QoS-based web service composition},
+  author={Alrifai, Mohammad and Skoutas, Dimitrios and Risse, Thomas},
+  booktitle={Proceedings of the 19th international conference on World wide web},
+  pages={11--20},
+  year={2010},
+  organization={ACM}
+}
+@article{jwu2010skyline,
+  title={基于 Skyline 的 QoS 感知的动态服务选择},
+  author={吴健 and 陈亮 and 邓水光 and 李莹 and 邝砾},
+  journal={计算机学报},
+  volume={11},
+  pages={2136--2146},
+  year={2010}
+}
+@phdthesis{barakat2013efficient,
+  title={Efficient adaptive multi-granularity service composition},
+  author={Barakat, Lina},
+  year={2013},
+  school={King's College London (University of London)}
+}
+@article{guo2010correlation,
+  title={Correlation-aware web services composition and QoS computation model in virtual enterprise},
+  author={Guo, Hua and Tao, Fei and Zhang, Lin and Su, Suiyi and Si, Nan},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={51},
+  number={5-8},
+  pages={817--827},
+  year={2010},
+  publisher={Springer}
+}
+@article{lecue2011seeking,
+  title={Seeking quality of web service composition in a semantic dimension},
+  author={Lecue, Freddy and Mehandjiev, Nikolay},
+  journal={Knowledge and Data Engineering, IEEE Transactions on},
+  volume={23},
+  number={6},
+  pages={942--959},
+  year={2011},
+  publisher={IEEE}
+}
+@inproceedings{li2007high,
+  title={High performance approach for multi-QoS constrained web services selection},
+  author={Li, Lei and Wei, Jun and Huang, Tao},
+  booktitle={Service-Oriented Computing},
+  pages={283--294},
+  year={2007},
+  organization={Springer}
+}
+@article{wu2014correlation,
+  title={A correlation-driven optimal service selection approach for virtual enterprise establishment},
+  author={Wu, Quanwang and Zhu, Qingsheng and Zhou, Mingqiang},
+  journal={Journal of Intelligent Manufacturing},
+  volume={25},
+  number={6},
+  pages={1441--1453},
+  year={2014},
+  publisher={Springer}
+}
+@article{ye2008service,
+  title={Service-correlation aware service selection for composite service},
+  author={Ye, Shiyang and Wei, Jun and Li, Lei and Huang, Tao},
+  journal={Chinese Journal of computers},
+  volume={31},
+  number={8},
+  pages={1383--1397},
+  year={2008}
+}
+@inproceedings{barakat2012efficient,
+  title={Efficient correlation-aware service selection},
+  author={Barakat, Lina and Miles, Simon and Luck, Michael},
+  booktitle={Web Services (ICWS), 2012 IEEE 19th International Conference on},
+  pages={1--8},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{zhang2014correlation,
+  title={Correlation-Supported Composite Service Reselection},
+  author={Zhang, Yuesong and Zhang, Bin and Zhang, Changsheng},
+  booktitle={Web Services (ICWS), 2014 IEEE International Conference on},
+  pages={510--517},
+  year={2014},
+  organization={IEEE}
+}
+@article{deng2014mobility,
+  title={Mobility-Enabled Service Selection for Composite Services},
+  author={Deng, Shuiguang and Huang, Longtao and Hu, Daning and J Leon, Z and Wu, Zhaohui},
+  journal={IEEE Transactions on Services Computing},
+  pages={1--1},
+  year={2014},
+  doi={10.1109/TSC.2014.2365799},
+  publisher={IEEE}
+}
+@inproceedings{andrieux2007web,
+  title={Web services agreement specification (WS-Agreement)},
+  author={Andrieux, Alain and Czajkowski, Karl and Dan, Asit and Keahey, Kate and Ludwig, Heiko and Nakata, Toshiyuki and Pruyne, Jim and Rofrano, John and Tuecke, Steve and Xu, Ming},
+  booktitle={Open Grid Forum},
+  volume={128},
+  year={2007}
+}
+
+@article{alrifai2012hybrid,
+  title={A hybrid approach for efficient Web service composition with end-to-end QoS constraints},
+  author={Alrifai, Mohammad and Risse, Thomas and Nejdl, Wolfgang},
+  journal={ACM Transactions on the Web (TWEB)},
+  volume={6},
+  number={2},
+  pages={7},
+  year={2012},
+  publisher={ACM}
+}
+@article{cardoso2004quality,
+  title={Quality of service for workflows and web service processes},
+  author={Cardoso, Jorge and Sheth, Amit and Miller, John and Arnold, Jonathan and Kochut, Krys},
+  journal={Web Semantics: Science, Services and Agents on the World Wide Web},
+  volume={1},
+  number={3},
+  pages={281--308},
+  year={2004},
+  publisher={Elsevier}
+}
+%@article{xjwei2008skyline,
+%  title={Skyline 查询处理},
+%  author={魏小娟 and 杨婧 and 李翠平 and 陈红},
+%  journal={软件学报},
+%  volume={19},
+%  number={6},
+%  pages={1386--1400},
+%  year={2008}
+%}
+%@article{lzhu2008skyline,
+%  title={Skyline 计算研究综述},
+%  author={朱琳 and 关佶红 and 周水庚},
+%  journal={Computer Engineering and Applications},
+%  volume={44},
+%  number={6},
+%  year={2008}
+%}
+@inproceedings{borzsony2001skyline,
+  title={The skyline operator},
+  author={Borzsony, S and Kossmann, Donald and Stocker, Konrad},
+  booktitle={Data Engineering, 2001. Proceedings. 17th International Conference on},
+  pages={421--430},
+  year={2001},
+  organization={IEEE}
+}
+@inproceedings{chomicki2003skyline,
+  title={Skyline with presorting},
+  author={Chomicki, Jan and Godfrey, Parke and Gryz, Jarek and Liang, Dongming},
+  booktitle={ICDE},
+  volume={3},
+  pages={717--719},
+  year={2003}
+}
+@inproceedings{tan2001efficient,
+  title={Efficient progressive skyline computation},
+  author={Tan, Kian-Lee and Eng, Pin-Kwang and Ooi, Beng Chin and others},
+  booktitle={VLDB},
+  volume={1},
+  pages={301--310},
+  year={2001}
+}
+@inproceedings{kossmann2002shooting,
+  title={Shooting stars in the sky: An online algorithm for skyline queries},
+  author={Kossmann, Donald and Ramsak, Frank and Rost, Steffen},
+  booktitle={Proceedings of the 28th international conference on Very Large Data Bases},
+  pages={275--286},
+  year={2002},
+  organization={VLDB Endowment}
+}
+@article{papadias2005progressive,
+  title={Progressive skyline computation in database systems},
+  author={Papadias, Dimitris and Tao, Yufei and Fu, Greg and Seeger, Bernhard},
+  journal={ACM Transactions on Database Systems (TODS)},
+  volume={30},
+  number={1},
+  pages={41--82},
+  year={2005},
+  publisher={ACM}
+}
+@inproceedings{godfrey2005maximal,
+  title={Maximal vector computation in large data sets},
+  author={Godfrey, Parke and Shipley, Ryan and Gryz, Jarek},
+  booktitle={Proceedings of the 31st international conference on Very large data bases},
+  pages={229--240},
+  year={2005},
+  organization={VLDB Endowment}
+}
+@inproceedings{chan2006finding,
+  title={Finding k-dominant skylines in high dimensional space},
+  author={Chan, Chee-Yong and Jagadish, HV and Tan, Kian-Lee and Tung, Anthony KH and Zhang, Zhenjie},
+  booktitle={Proceedings of the 2006 ACM SIGMOD international conference on Management of data},
+  pages={503--514},
+  year={2006},
+  organization={ACM}
+}
+@inproceedings{benouaret2011use,
+  title={On the use of fuzzy dominance for computing service skyline based on qos},
+  author={Benouaret, Karim and Benslimane, Djamal and Hadjali, Allel},
+  booktitle={Web Services (ICWS), 2011 IEEE International Conference on},
+  pages={540--547},
+  year={2011},
+  organization={IEEE}
+}
+@inproceedings{benouaret2012ws,
+  title={Ws-sky: An efficient and flexible framework for qos-aware web service selection},
+  author={Benouaret, Karim and Benslimane, Djamal and Hadjali, Allel},
+  booktitle={Services Computing (SCC), 2012 IEEE Ninth International Conference on},
+  pages={146--153},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{zhang2013selecting,
+  title={Selecting top-k composite web services using preference-aware dominance relationship},
+  author={Zhang, Shaoqian and Dou, Wanchun and Chen, Jinjun},
+  booktitle={Web Services (ICWS), 2013 IEEE 20th International Conference on},
+  pages={75--82},
+  year={2013},
+  organization={IEEE}
+}
+@article{tang2012dominance,
+  title={Dominance-Based Service Selection Scheme with Concurrent Requests},
+  author={Tang, Chaogang and Li, Qing and Xiong, Yan and Wen, Shiting and Liu, An and Zhong, Farong},
+  journal={Journal of Computing Science and Engineering},
+  volume={6},
+  number={2},
+  pages={89--104},
+  year={2012}
+}
+@inproceedings{zhang2013efficient,
+  title={Efficient approach to top-k dominating queries on service selection},
+  author={Zhang, Jinfang and Zhong, Farong and Yang, Zhenguo},
+  booktitle={Wireless and Mobile Networking Conference (WMNC), 2013 6th Joint IFIP},
+  pages={1--8},
+  year={2013},
+  organization={IEEE}
+}
+@article{dai2013using,
+  title={Using Skyline and Dominance Relationship for Web Services Ranking?},
+  author={DAI, Gang and ZHU, Qingsheng},
+  journal={Journal of Computational Information Systems},
+  volume={9},
+  number={10},
+  pages={3977--3984},
+  year={2013}
+}
+@inproceedings{benouaret2011top,
+  title={Top-k web service compositions using fuzzy dominance relationship},
+  author={Benouaret, Karim and Benslimane, Djamal and Hadjali, Allel and Barhamgi, Mahmoud},
+  booktitle={Services Computing (SCC), 2011 IEEE International Conference on},
+  pages={144--151},
+  year={2011},
+  organization={IEEE}
+}

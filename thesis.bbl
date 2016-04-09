@@ -1,0 +1,114 @@
+\begin{thebibliography}{10}
+
+\bibitem{gotel1994analysis}
+Orlena~CZ Gotel and Anthony~CW Finkelstein.
+\newblock An analysis of the requirements traceability problem.
+\newblock In {\em Requirements Engineering, 1994., Proceedings of the First
+  International Conference on}, pages 94--101. IEEE, 1994.
+
+\bibitem{mader2012assessing}
+Patrick Mader and Alexander Egyed.
+\newblock Assessing the effect of requirements traceability for software
+  maintenance.
+\newblock In {\em Software Maintenance (ICSM), 2012 28th IEEE International
+  Conference on}, pages 171--180. IEEE, 2012.
+
+\bibitem{ramesh1995implementing}
+Balasubramaniam Ramesh, Timothy Powers, Curtis Stubbs, and Michael Edwards.
+\newblock Implementing requirements traceability: a case study.
+\newblock In {\em Requirements Engineering, 1995., Proceedings of the Second
+  IEEE International Symposium on}, pages 89--95. IEEE, 1995.
+
+\bibitem{antoniol2002recovering}
+Giuliano Antoniol, Gerardo Canfora, Gerardo Casazza, Andrea De~Lucia, and
+  Ettore Merlo.
+\newblock Recovering traceability links between code and documentation.
+\newblock {\em Software Engineering, IEEE Transactions on}, 28(10):970--983,
+  2002.
+
+\bibitem{marcus2003recovering}
+Andrian Marcus and Jonathan~I Maletic.
+\newblock Recovering documentation-to-source-code traceability links using
+  latent semantic indexing.
+\newblock In {\em Software Engineering, 2003. Proceedings. 25th International
+  Conference on}, pages 125--135. IEEE, 2003.
+
+\bibitem{cleland2005utilizing}
+Jane Cleland-Huang, Raffaella Settimi, Chuan Duan, and Xuchang Zou.
+\newblock Utilizing supporting evidence to improve dynamic requirements
+  traceability.
+\newblock In {\em Requirements Engineering, 2005. Proceedings. 13th IEEE
+  International Conference on}, pages 135--144. IEEE, 2005.
+
+\bibitem{abadi2008traceability}
+Aharon Abadi, Mordechai Nisenson, and Yahalomit Simionovici.
+\newblock A traceability technique for specifications.
+\newblock In {\em The 16th IEEE International Conference on Program
+  Comprehension}, pages 103--112. IEEE, 2008.
+
+\bibitem{eaddy2008cerberus}
+Marc Eaddy, Alfred~V Aho, Giuliano Antoniol, and Yann-Ga{\"e}l
+  Gu{\'e}h{\'e}neuc.
+\newblock Cerberus: Tracing requirements to source code using information
+  retrieval, dynamic analysis, and program analysis.
+\newblock In {\em Program Comprehension, 2008. ICPC 2008. The 16th IEEE
+  International Conference on}, pages 53--62. IEEE, 2008.
+
+\bibitem{dasgupta2013enhancing}
+Tathagata Dasgupta, Mark Grechanik, Evan Moritz, Bogdan Dit, and Denys
+  Poshyvanyk.
+\newblock Enhancing software traceability by automatically expanding corpora
+  with relevant documentation.
+\newblock In {\em 2013 IEEE International Conference on Software Maintenance},
+  pages 320--329. IEEE, 2013.
+
+\bibitem{ali2012empirical}
+Nawazish Ali, Zohreh Sharafl, Y~Gueheneuc, and Giuliano Antoniol.
+\newblock An empirical study on requirements traceability using eye-tracking.
+\newblock In {\em Software Maintenance (ICSM), 2012 28th IEEE International
+  Conference on}, pages 191--200. IEEE, 2012.
+
+\bibitem{ali2013trustrace}
+Nawazish Ali, Yann-Gael Gueneuc, and Giuliano Antoniol.
+\newblock Trustrace: Mining software repositories to improve the accuracy of
+  requirement traceability links.
+\newblock {\em Software Engineering, IEEE Transactions on}, 39(5):725--741,
+  2013.
+
+\bibitem{mahmoud2013supporting}
+Ali Mahmoud and Nan Niu.
+\newblock Supporting requirements traceability through refactoring.
+\newblock In {\em Requirements Engineering Conference (RE), 2013 21st IEEE
+  International}, pages 32--41. IEEE, 2013.
+
+\bibitem{capobianco2013improving}
+Giovanni Capobianco, Andrea~De Lucia, Rocco Oliveto, Annibale Panichella, and
+  Sebastiano Panichella.
+\newblock Improving ir-based traceability recovery via noun-based indexing of
+  software artifacts.
+\newblock {\em Journal of Software: Evolution and Process}, 25(7):743--762,
+  2013.
+
+\bibitem{diaz2013using}
+David Diaz, Gabriele Bavota, Andrian Marcus, Rocco Oliveto, Satoshi Takahashi,
+  and Andrea De~Lucia.
+\newblock Using code ownership to improve ir-based traceability link recovery.
+\newblock In {\em Program Comprehension (ICPC), 2013 IEEE 21st International
+  Conference on}, pages 123--132. IEEE, 2013.
+
+\bibitem{mcmillan2009combining}
+Collin McMillan, Denys Poshyvanyk, and Meghan Revelle.
+\newblock Combining textual and structural analysis of software artifacts for
+  traceability link recovery.
+\newblock In {\em Traceability in Emerging Forms of Software Engineering, 2009.
+  TEFSE'09. ICSE Workshop on}, pages 41--48. IEEE, 2009.
+
+\bibitem{panichella2013and}
+Annibale Panichella, Collin McMillan, Evan Moritz, Davide Palmieri, Rocco
+  Oliveto, Denys Poshyvanyk, and Andrea De~Lucia.
+\newblock When and how using structural information to improve ir-based
+  traceability recovery.
+\newblock In {\em Software Maintenance and Reengineering (CSMR), 2013 17th
+  European Conference on}, pages 199--208. IEEE, 2013.
+
+\end{thebibliography}

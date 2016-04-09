@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{englishabstract.0}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.1}{目录}{}% 2
+\BOOKMARK [0][-]{chapter.1}{第一章  绪言}{}% 3
+\BOOKMARK [1][-]{section.1.1}{1.1 研究背景}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{1.2 本文组织}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{第二章  相关工作}{}% 6
+\BOOKMARK [1][-]{section.2.1}{2.1 需求可追踪性的相关概念}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 基本概念}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 研究现状}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{2.2 1. 基于信息检索的需求到代码间追踪关系生成技术}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{2.3 本章小结}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter*.3}{参考文献}{}% 12
+\BOOKMARK [0][-]{chapter.3}{第三章  基于代码依赖紧密度分析改进需求可追踪性生成方法}{}% 13
+\BOOKMARK [1][-]{section.3.1}{3.1 引言}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{3.2 本章小结}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{第四章  基于代码依赖关系的过时需求自动检测与更新推荐方法}{}% 16
+\BOOKMARK [1][-]{section.4.1}{4.1 引言}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{4.2 背景}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 研究动机}{section.4.2}% 19
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 问题定义}{section.4.2}% 20
+\BOOKMARK [1][-]{section.4.3}{4.3 方法概述}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.4}{4.4 代码依赖关系构成的代码变更组识别技术}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 比较代码元素的差异}{section.4.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 构造变更组}{section.4.4}% 24
+\BOOKMARK [1][-]{section.4.5}{4.5 基于变更组文本与需求文本相似性的过时需求自动检测方法}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 抽取关键词以构造变更组的描述文本}{section.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 基于信息检索技术生成近似候选过时需求的排序}{section.4.5}% 27
+\BOOKMARK [1][-]{section.4.6}{4.6 基于代码依赖关系与文本信息的过时需求半自动更新推荐机制}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.7}{4.7 实验与分析}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 实验目标与评价指标}{section.4.7}% 30
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 研究案例与实验设置}{section.4.7}% 31
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 实验结果与结果分析}{section.4.7}% 32
+\BOOKMARK [1][-]{section.4.8}{4.8 本章小结}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{第五章  总结与展望}{}% 34
+\BOOKMARK [1][-]{section.5.1}{5.1 工作总结}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 36
+\BOOKMARK [0][-]{chapter*.4}{简历与科研成果}{}% 37
+\BOOKMARK [0][-]{chapter*.5}{参考文献}{}% 38
