@@ -1,21 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 追踪关系生成方法}}{5}{figure.2.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{14}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 需求文本SRS238的内容}}{15}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 与设置灌溉区域的湿度值上限功能有关的部分函数及其依赖结构}}{15}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于代码依赖关系的过时需求自动检测与更新推荐方法流程}}{16}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Commits.}}{27}{figure.4.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Commits}$ }}}{27}{figure.4.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Commits}$ }}}{27}{figure.4.5}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Commits}$ }}}{27}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{28}{figure.4.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Releases}$ }}}{28}{figure.4.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Releases}$ }}}{28}{figure.4.6}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Releases}$ }}}{28}{figure.4.6}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 需求文本SRS238的内容}}{19}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 与设置灌溉区域的湿度值上限功能有关的部分函数及其依赖结构}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于代码依赖关系的过时需求自动检测与更新推荐方法流程}}{20}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Commits.}}{31}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Commits}$ }}}{31}{figure.4.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Commits}$ }}}{31}{figure.4.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Commits}$ }}}{31}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{32}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Releases}$ }}}{32}{figure.4.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Releases}$ }}}{32}{figure.4.6}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Releases}$ }}}{32}{figure.4.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

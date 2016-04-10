@@ -1,0 +1,25 @@
+\begin{algorithm}[H]
+  \setcounter{algorithm}{0}
+  \caption{Establishing Initial Region}
+  initialRegion $\leftarrow$ $\emptyset$;\\
+  prunedGraph $\leftarrow$ CDCGraph.setPruning($Threshold_{DC}$,$Threshold_{CD}$);\\
+  topLink $\leftarrow$ candidateList.next();\\
+  \While{prunedGraph.hasNoNeighbors(topLink.class)} {
+      initialRegion.add(topLink.class);\\
+      topLink $\leftarrow$ candidateList.next();
+  } 
+  initialRegion.add(topLink.class);\\
+  initialRegion.topIRValue $\leftarrow$ topLink.IRValue;\\
+  reachedClasses $\leftarrow$ $\emptyset$;\\
+  reachedClasses.add(prunedGraph.getTransitiveCallers(topLink.class));\\
+  reachedClasses.add(prunedGraph.getTransitiveCallees(topLink.class));\\
+  reachedClasses.add(prunedGraph.getNeighborsByData(topLink.class));\\
+  \ForEach {link in candidateList}
+    {
+      \If {reachedClasses.contains(link.class)} {
+        link.IRValue $\leftarrow$ initialRegion.topIRValue;\\
+        initialRegion.add(link.class);
+      }
+    }
+  candidateList.reorderByIRValue();\\
+\end{algorithm}

@@ -111,4 +111,57 @@ Annibale Panichella, Collin McMillan, Evan Moritz, Davide Palmieri, Rocco
 \newblock In {\em Software Maintenance and Reengineering (CSMR), 2013 17th
   European Conference on}, pages 199--208. IEEE, 2013.
 
+\bibitem{deerwester1990indexing}
+Scott Deerwester, Susan~T Dumais, George~W Furnas, Thomas~K Landauer, and
+  Richard Harshman.
+\newblock Indexing by latent semantic analysis.
+\newblock {\em Journal of the American society for information science},
+  41(6):391, 1990.
+
+\bibitem{dumais1991improving}
+Susan~T Dumais.
+\newblock Improving the retrieval of information from external sources.
+\newblock {\em Behavior Research Methods, Instruments, \& Computers},
+  23(2):229--236, 1991.
+
+\bibitem{berry1992large}
+Michael~W Berry.
+\newblock Large-scale sparse singular value computations.
+\newblock {\em International Journal of Supercomputer Applications},
+  6(1):13--49, 1992.
+
+\bibitem{landauer1997solution}
+Thomas~K Landauer and Susan~T Dumais.
+\newblock A solution to plato's problem: The latent semantic analysis theory of
+  acquisition, induction, and representation of knowledge.
+\newblock {\em Psychological review}, 104(2):211, 1997.
+
+\bibitem{salton1986introduction}
+Gerard Salton and Michael~J McGill.
+\newblock Introduction to modern information retrieval.
+\newblock 1986.
+
+\bibitem{dumais1994latent}
+Susan~T Dumais et~al.
+\newblock Latent semantic indexing (lsi) and trec-2.
+\newblock {\em NIST SPECIAL PUBLICATION SP}, pages 105--105, 1994.
+
+\bibitem{cover2012elements}
+Thomas~M Cover and Joy~A Thomas.
+\newblock {\em Elements of information theory}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{anquetil1998assessing}
+Nicolas Anquetil and Timothy Lethbridge.
+\newblock Assessing the relevance of identifier names in a legacy software
+  system.
+\newblock In {\em Proceedings of the 1998 conference of the Centre for Advanced
+  Studies on Collaborative Research}, page~4. IBM Press, 1998.
+
+\bibitem{scanniello2015link}
+Giuseppe Scanniello, Andrian Marcus, and Daniele Pascale.
+\newblock Link analysis algorithms for static concept location: an empirical
+  assessment.
+\newblock {\em Empirical Software Engineering}, 20(6):1666--1720, 2015.
+
 \end{thebibliography}

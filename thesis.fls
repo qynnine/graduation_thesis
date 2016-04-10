@@ -301,6 +301,7 @@ INPUT chapter/Introduction.tex
 INPUT chapter/Introduction.tex
 INPUT chapter/RelatedWork.tex
 INPUT chapter/RelatedWork.tex
+INPUT ./figures/related_work/ir_traceability_process.pdf
 INPUT thesis.bbl
 INPUT thesis.bbl
 INPUT chapter/Traceability.tex
