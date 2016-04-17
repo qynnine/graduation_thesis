@@ -4,49 +4,66 @@
 \contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}本文组织}{1}{section.1.2}
 \contentsline {chapter}{\numberline {第二章\hspace {0.3em}}相关工作}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}需求可追踪性的相关概念}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}基本概念}{3}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.1}需求可追踪性的相关技术}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}需求可追踪性的基本概念}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}研究现状}{4}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}基于信息检索的需求到代码间追踪关系生成技术}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}追踪关系生成方法}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}信息检索模型}{6}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}VSM}{6}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}LSI}{7}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}JS}{8}{subsubsection.2.2.2.3}
-\contentsline {subsection}{\numberline {2.2.3}结合代码文本与结构信息的追踪关系生成方法改进}{9}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}O-CSTI}{9}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}UD-CSTI}{10}{subsubsection.2.2.3.2}
-\contentsline {subsubsection}{\numberline {2.2.3.3}PageRank}{10}{subsubsection.2.2.3.3}
-\contentsline {section}{\numberline {2.3}本章小结}{10}{section.2.3}
-\contentsline {chapter}{参考文献}{11}{chapter*.3}
+\contentsline {subsection}{\numberline {2.1.3}基于信息检索的需求到代码间追踪关系生成技术}{5}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}VSM}{6}{subsubsection.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2.1.3.2}LSI}{7}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.3}JS}{8}{subsubsection.2.1.3.3}
+\contentsline {subsection}{\numberline {2.1.4}结合代码文本与结构信息的追踪关系生成方法改进}{9}{subsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.4.1}O-CSTI}{9}{subsubsection.2.1.4.1}
+\contentsline {subsubsection}{\numberline {2.1.4.2}UD-CSTI}{9}{subsubsection.2.1.4.2}
+\contentsline {subsubsection}{\numberline {2.1.4.3}PageRank}{10}{subsubsection.2.1.4.3}
+\contentsline {section}{\numberline {2.2}过时需求自动检测的相关技术}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}过时需求的基本概念}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}基于代码变更的过时需求自动检测方法}{12}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}识别影响需求的代码变更}{13}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}检测受变更影响的需求}{13}{subsubsection.2.2.2.2}
+\contentsline {section}{\numberline {2.3}本章小结}{13}{section.2.3}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}基于代码依赖紧密度分析改进需求可追踪性生成方法}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}引言}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}本章小结}{15}{section.3.2}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}基于代码依赖关系的过时需求自动检测与更新推荐方法}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}引言}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}背景}{18}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}研究动机}{18}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}问题定义}{20}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}方法概述}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}代码依赖关系构成的代码变更组识别技术}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}比较代码元素的差异}{21}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}构造变更组}{21}{subsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.2.1}生成CDCGraph (Call Dependency with Closeness Graph)}{21}{subsubsection.4.4.2.1}
-\contentsline {subsubsection}{\numberline {4.4.2.2}建立函数的变更域}{22}{subsubsection.4.4.2.2}
-\contentsline {subsubsection}{\numberline {4.4.2.3}分组策略}{22}{subsubsection.4.4.2.3}
-\contentsline {section}{\numberline {4.5}基于变更组文本与需求文本相似性的过时需求自动检测方法}{23}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}抽取关键词以构造变更组的描述文本}{23}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}基于信息检索技术生成近似候选过时需求的排序}{24}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}基于代码依赖关系与文本信息的过时需求半自动更新推荐机制}{24}{section.4.6}
-\contentsline {section}{\numberline {4.7}实验与分析}{26}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}实验目标与评价指标}{26}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}研究案例与实验设置}{28}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}实验结果与结果分析}{30}{subsection.4.7.3}
-\contentsline {subsubsection}{\numberline {4.7.3.1}过时需求检测（Q1）}{30}{subsubsection.4.7.3.1}
-\contentsline {subsubsection}{\numberline {4.7.3.2}变更函数推荐（Q2）}{32}{subsubsection.4.7.3.2}
-\contentsline {section}{\numberline {4.8}本章小结}{33}{section.4.8}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结与展望}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}工作总结}{35}{section.5.1}
-\contentsline {section}{\numberline {5.2}研究展望}{35}{section.5.2}
-\contentsline {chapter}{简历与科研成果}{37}{chapter*.4}
-\contentsline {chapter}{参考文献}{39}{chapter*.5}
+\contentsline {section}{\numberline {3.2}背景}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}研究动机}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}问题定义}{16}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}方法概述}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}代码类间的依赖关系捕获与组织}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}代码依赖关系的紧密度计算}{18}{section.3.5}
+\contentsline {section}{\numberline {3.6}生成需求到代码的候选追踪关系}{20}{section.3.6}
+\contentsline {section}{\numberline {3.7}基于代码依赖关系紧密度的追踪关系重排序}{21}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}建立初始需求域}{21}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}重排序初始域外的追踪关系}{21}{subsection.3.7.2}
+\contentsline {section}{\numberline {3.8}实验与分析}{23}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}实验系统及IR模型}{23}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}评价指标}{24}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}研究问题}{25}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}实验结果与分析}{25}{subsection.3.8.4}
+\contentsline {section}{\numberline {3.9}本章小结}{27}{section.3.9}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}基于代码依赖关系的过时需求自动检测与更新推荐方法}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}背景}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}研究动机}{30}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}问题定义}{32}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}方法概述}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}代码依赖关系构成的代码变更组识别技术}{33}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}比较代码元素的差异}{33}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}构造变更组}{33}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}生成CDCGraph (Call Dependency with Closeness Graph)}{33}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}建立函数的变更域}{34}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}分组策略}{34}{subsubsection.4.4.2.3}
+\contentsline {section}{\numberline {4.5}基于变更组文本与需求文本相似性的过时需求自动检测方法}{35}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}抽取关键词以构造变更组的描述文本}{35}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}基于信息检索技术生成近似候选过时需求的排序}{36}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}基于代码依赖关系与文本信息的过时需求半自动更新推荐机制}{36}{section.4.6}
+\contentsline {section}{\numberline {4.7}实验与分析}{38}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}实验目标与评价指标}{38}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}研究案例与实验设置}{40}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}实验结果与结果分析}{42}{subsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.3.1}过时需求检测（Q1）}{42}{subsubsection.4.7.3.1}
+\contentsline {subsubsection}{\numberline {4.7.3.2}变更函数推荐（Q2）}{44}{subsubsection.4.7.3.2}
+\contentsline {section}{\numberline {4.8}本章小结}{45}{section.4.8}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结与展望}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}工作总结}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}研究展望}{47}{section.5.2}
+\contentsline {chapter}{简历与科研成果}{49}{chapter*.3}
+\contentsline {chapter}{参考文献}{51}{chapter*.4}

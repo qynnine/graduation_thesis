@@ -164,4 +164,59 @@ Giuseppe Scanniello, Andrian Marcus, and Daniele Pascale.
   assessment.
 \newblock {\em Empirical Software Engineering}, 20(6):1666--1720, 2015.
 
+\bibitem{bennett2000software}
+Keith~H Bennett and V{\'a}clav~T Rajlich.
+\newblock Software maintenance and evolution: a roadmap.
+\newblock In {\em Proceedings of the Conference on the Future of Software
+  Engineering}, pages 73--87. ACM, 2000.
+
+\bibitem{lethbridge2003software}
+Timothy~C Lethbridge, Janice Singer, and Andrew Forward.
+\newblock How software engineers use documentation: The state of the practice.
+\newblock {\em Software, iEEE}, 20(6):35--39, 2003.
+
+\bibitem{ben2015supporting}
+Eya Ben~Charrada, Anne Koziolek, and Martin Glinz.
+\newblock Supporting requirements update during software evolution.
+\newblock {\em Journal of Software: Evolution and Process}, 27(3):166--194,
+  2015.
+
+\bibitem{glinz2007non}
+Martin Glinz.
+\newblock On non-functional requirements.
+\newblock In {\em Requirements Engineering Conference, 2007. RE'07. 15th IEEE
+  International}, pages 21--26. IEEE, 2007.
+
+\bibitem{levenshtein1966binary}
+Vladimir~I Levenshtein.
+\newblock Binary codes capable of correcting deletions, insertions, and
+  reversals.
+\newblock In {\em Soviet physics doklady}, volume~10, pages 707--710, 1966.
+
+\bibitem{burgstaller2010understanding}
+Benedikt Burgstaller and Alexander Egyed.
+\newblock Understanding where requirements are implemented.
+\newblock In {\em Software Maintenance (ICSM), 2010 IEEE International
+  Conference on}, pages 1--5. IEEE, 2010.
+
+\bibitem{zhao2006sniafl}
+Wei Zhao, Lu~Zhang, Yin Liu, Jiasu Sun, and Fuqing Yang.
+\newblock Sniafl: Towards a static noninteractive approach to feature location.
+\newblock {\em ACM Transactions on Software Engineering and Methodology
+  (TOSEM)}, 15(2):195--226, 2006.
+
+\bibitem{bavota2014automating}
+Gabriele Bavota, Andrea De~Lucia, Andrian Marcus, and Rocco Oliveto.
+\newblock Automating extract class refactoring: an improved method and its
+  evaluation.
+\newblock {\em Empirical Software Engineering}, 19(6):1617--1664, 2014.
+
+\bibitem{kuang2015can}
+Hongyu Kuang, Patrick M{\"a}der, Hao Hu, Achraf Ghabi, LiGuo Huang, Jian
+  L{\"u}, and Alexander Egyed.
+\newblock Can method data dependencies support the assessment of traceability
+  between requirements and source code?
+\newblock {\em Journal of Software: Evolution and Process}, 27(11):838--866,
+  2015.
+
 \end{thebibliography}
