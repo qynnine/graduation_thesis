@@ -1,23 +1,52 @@
 \begin{thebibliography}{10}
 
+\bibitem{lethbridge2003software}
+Timothy~C Lethbridge, Janice Singer, and Andrew Forward.
+\newblock How software engineers use documentation: The state of the practice.
+\newblock {\em Software, iEEE}, 20(6):35--39, 2003.
+
+\bibitem{bennett2000software}
+Keith~H Bennett and V{\'a}clav~T Rajlich.
+\newblock Software maintenance and evolution: a roadmap.
+\newblock In {\em Proceedings of the Conference on the Future of Software
+  Engineering}, pages 73--87. ACM, 2000.
+
+\bibitem{mens2005challenges}
+Tom Mens, Michel Wermelinger, St{\'e}phane Ducasse, Serge Demeyer, Robert
+  Hirschfeld, and Mehdi Jazayeri.
+\newblock Challenges in software evolution.
+\newblock In {\em Principles of Software Evolution, Eighth International
+  Workshop on}, pages 13--22. IEEE, 2005.
+
 \bibitem{gotel1994analysis}
 Orlena~CZ Gotel and Anthony~CW Finkelstein.
 \newblock An analysis of the requirements traceability problem.
 \newblock In {\em Requirements Engineering, 1994., Proceedings of the First
   International Conference on}, pages 94--101. IEEE, 1994.
 
-\bibitem{mader2012assessing}
-Patrick Mader and Alexander Egyed.
-\newblock Assessing the effect of requirements traceability for software
-  maintenance.
-\newblock In {\em Software Maintenance (ICSM), 2012 28th IEEE International
-  Conference on}, pages 171--180. IEEE, 2012.
+\bibitem{ramesh2001toward}
+Balasubramaniam Ramesh and Matthias Jarke.
+\newblock Toward reference models for requirements traceability.
+\newblock {\em Software Engineering, IEEE Transactions on}, 27(1):58--93, 2001.
 
-\bibitem{ramesh1995implementing}
-Balasubramaniam Ramesh, Timothy Powers, Curtis Stubbs, and Michael Edwards.
-\newblock Implementing requirements traceability: a case study.
-\newblock In {\em Requirements Engineering, 1995., Proceedings of the Second
-  IEEE International Symposium on}, pages 89--95. IEEE, 1995.
+\bibitem{cleland2003event}
+Jane Cleland-Huang, Carl~K Chang, and Mark Christensen.
+\newblock Event-based traceability for managing evolutionary change.
+\newblock {\em Software Engineering, IEEE Transactions on}, 29(9):796--810,
+  2003.
+
+\bibitem{mader2012towards}
+Patrick M{\"a}der and Orlena Gotel.
+\newblock Towards automated traceability maintenance.
+\newblock {\em Journal of Systems and Software}, 85(10):2205--2227, 2012.
+
+\bibitem{hayes2007requirements}
+Jane~Huffman Hayes, Alex Dekhtyar, Senthil~Karthikeyan Sundaram, E~Ashlee
+  Holbrook, Sravanthi Vadlamudi, and Alain April.
+\newblock Requirements tracing on target (retro): improving software
+  maintenance through traceability recovery.
+\newblock {\em Innovations in Systems and Software Engineering}, 3(3):193--202,
+  2007.
 
 \bibitem{antoniol2002recovering}
 Giuliano Antoniol, Gerardo Canfora, Gerardo Casazza, Andrea De~Lucia, and
@@ -25,6 +54,12 @@ Giuliano Antoniol, Gerardo Canfora, Gerardo Casazza, Andrea De~Lucia, and
 \newblock Recovering traceability links between code and documentation.
 \newblock {\em Software Engineering, IEEE Transactions on}, 28(10):970--983,
   2002.
+
+\bibitem{hayes2006advancing}
+Jane~Huffman Hayes, Alex Dekhtyar, and Senthil~Karthikeyan Sundaram.
+\newblock Advancing candidate link generation for requirements tracing: The
+  study of methods.
+\newblock {\em Software Engineering, IEEE Transactions on}, 32(1):4--19, 2006.
 
 \bibitem{marcus2003recovering}
 Andrian Marcus and Jonathan~I Maletic.
@@ -40,11 +75,20 @@ Jane Cleland-Huang, Raffaella Settimi, Chuan Duan, and Xuchang Zou.
 \newblock In {\em Requirements Engineering, 2005. Proceedings. 13th IEEE
   International Conference on}, pages 135--144. IEEE, 2005.
 
-\bibitem{abadi2008traceability}
-Aharon Abadi, Mordechai Nisenson, and Yahalomit Simionovici.
-\newblock A traceability technique for specifications.
-\newblock In {\em The 16th IEEE International Conference on Program
-  Comprehension}, pages 103--112. IEEE, 2008.
+\bibitem{cleland2010machine}
+Jane Cleland-Huang, Adam Czauderna, Marek Gibiec, and John Emenecker.
+\newblock A machine learning approach for tracing regulatory codes to product
+  specific requirements.
+\newblock In {\em Proceedings of the 32nd ACM/IEEE International Conference on
+  Software Engineering-Volume 1}, pages 155--164. ACM, 2010.
+
+\bibitem{panichella2013and}
+Annibale Panichella, Collin McMillan, Evan Moritz, Davide Palmieri, Rocco
+  Oliveto, Denys Poshyvanyk, and Andrea De~Lucia.
+\newblock When and how using structural information to improve ir-based
+  traceability recovery.
+\newblock In {\em Software Maintenance and Reengineering (CSMR), 2013 17th
+  European Conference on}, pages 199--208. IEEE, 2013.
 
 \bibitem{eaddy2008cerberus}
 Marc Eaddy, Alfred~V Aho, Giuliano Antoniol, and Yann-Ga{\"e}l
@@ -53,6 +97,50 @@ Marc Eaddy, Alfred~V Aho, Giuliano Antoniol, and Yann-Ga{\"e}l
   retrieval, dynamic analysis, and program analysis.
 \newblock In {\em Program Comprehension, 2008. ICPC 2008. The 16th IEEE
   International Conference on}, pages 53--62. IEEE, 2008.
+
+\bibitem{ben2012identifying}
+Eya Ben~Charrada, Anne Koziolek, and Martin Glinz.
+\newblock Identifying outdated requirements based on source code changes.
+\newblock In {\em Requirements Engineering Conference (RE), 2012 20th IEEE
+  International}, pages 61--70. IEEE, 2012.
+
+\bibitem{mcmillan2009combining}
+Collin McMillan, Denys Poshyvanyk, and Meghan Revelle.
+\newblock Combining textual and structural analysis of software artifacts for
+  traceability link recovery.
+\newblock In {\em Traceability in Emerging Forms of Software Engineering, 2009.
+  TEFSE'09. ICSE Workshop on}, pages 41--48. IEEE, 2009.
+
+\bibitem{zhao2006sniafl}
+Wei Zhao, Lu~Zhang, Yin Liu, Jiasu Sun, and Fuqing Yang.
+\newblock Sniafl: Towards a static noninteractive approach to feature location.
+\newblock {\em ACM Transactions on Software Engineering and Methodology
+  (TOSEM)}, 15(2):195--226, 2006.
+
+\bibitem{scanniello2015link}
+Giuseppe Scanniello, Andrian Marcus, and Daniele Pascale.
+\newblock Link analysis algorithms for static concept location: an empirical
+  assessment.
+\newblock {\em Empirical Software Engineering}, 20(6):1666--1720, 2015.
+
+\bibitem{mader2012assessing}
+Patrick Mader and Alexander Egyed.
+\newblock Assessing the effect of requirements traceability for software
+  maintenance.
+\newblock In {\em Software Maintenance (ICSM), 2012 28th IEEE International
+  Conference on}, pages 171--180. IEEE, 2012.
+
+\bibitem{ramesh1995implementing}
+Balasubramaniam Ramesh, Timothy Powers, Curtis Stubbs, and Michael Edwards.
+\newblock Implementing requirements traceability: a case study.
+\newblock In {\em Requirements Engineering, 1995., Proceedings of the Second
+  IEEE International Symposium on}, pages 89--95. IEEE, 1995.
+
+\bibitem{abadi2008traceability}
+Aharon Abadi, Mordechai Nisenson, and Yahalomit Simionovici.
+\newblock A traceability technique for specifications.
+\newblock In {\em The 16th IEEE International Conference on Program
+  Comprehension}, pages 103--112. IEEE, 2008.
 
 \bibitem{dasgupta2013enhancing}
 Tathagata Dasgupta, Mark Grechanik, Evan Moritz, Bogdan Dit, and Denys
@@ -95,21 +183,6 @@ David Diaz, Gabriele Bavota, Andrian Marcus, Rocco Oliveto, Satoshi Takahashi,
 \newblock Using code ownership to improve ir-based traceability link recovery.
 \newblock In {\em Program Comprehension (ICPC), 2013 IEEE 21st International
   Conference on}, pages 123--132. IEEE, 2013.
-
-\bibitem{mcmillan2009combining}
-Collin McMillan, Denys Poshyvanyk, and Meghan Revelle.
-\newblock Combining textual and structural analysis of software artifacts for
-  traceability link recovery.
-\newblock In {\em Traceability in Emerging Forms of Software Engineering, 2009.
-  TEFSE'09. ICSE Workshop on}, pages 41--48. IEEE, 2009.
-
-\bibitem{panichella2013and}
-Annibale Panichella, Collin McMillan, Evan Moritz, Davide Palmieri, Rocco
-  Oliveto, Denys Poshyvanyk, and Andrea De~Lucia.
-\newblock When and how using structural information to improve ir-based
-  traceability recovery.
-\newblock In {\em Software Maintenance and Reengineering (CSMR), 2013 17th
-  European Conference on}, pages 199--208. IEEE, 2013.
 
 \bibitem{deerwester1990indexing}
 Scott Deerwester, Susan~T Dumais, George~W Furnas, Thomas~K Landauer, and
@@ -158,23 +231,6 @@ Nicolas Anquetil and Timothy Lethbridge.
 \newblock In {\em Proceedings of the 1998 conference of the Centre for Advanced
   Studies on Collaborative Research}, page~4. IBM Press, 1998.
 
-\bibitem{scanniello2015link}
-Giuseppe Scanniello, Andrian Marcus, and Daniele Pascale.
-\newblock Link analysis algorithms for static concept location: an empirical
-  assessment.
-\newblock {\em Empirical Software Engineering}, 20(6):1666--1720, 2015.
-
-\bibitem{bennett2000software}
-Keith~H Bennett and V{\'a}clav~T Rajlich.
-\newblock Software maintenance and evolution: a roadmap.
-\newblock In {\em Proceedings of the Conference on the Future of Software
-  Engineering}, pages 73--87. ACM, 2000.
-
-\bibitem{lethbridge2003software}
-Timothy~C Lethbridge, Janice Singer, and Andrew Forward.
-\newblock How software engineers use documentation: The state of the practice.
-\newblock {\em Software, iEEE}, 20(6):35--39, 2003.
-
 \bibitem{ben2015supporting}
 Eya Ben~Charrada, Anne Koziolek, and Martin Glinz.
 \newblock Supporting requirements update during software evolution.
@@ -198,12 +254,6 @@ Benedikt Burgstaller and Alexander Egyed.
 \newblock Understanding where requirements are implemented.
 \newblock In {\em Software Maintenance (ICSM), 2010 IEEE International
   Conference on}, pages 1--5. IEEE, 2010.
-
-\bibitem{zhao2006sniafl}
-Wei Zhao, Lu~Zhang, Yin Liu, Jiasu Sun, and Fuqing Yang.
-\newblock Sniafl: Towards a static noninteractive approach to feature location.
-\newblock {\em ACM Transactions on Software Engineering and Methodology
-  (TOSEM)}, 15(2):195--226, 2006.
 
 \bibitem{bavota2014automating}
 Gabriele Bavota, Andrea De~Lucia, Andrian Marcus, and Rocco Oliveto.

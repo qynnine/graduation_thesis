@@ -1,7 +1,8 @@
-PWD /Users/niejia/Desktop/Du Yu/chapter
-INPUT /usr/local/texlive/2015basic/texmf.cnf
-INPUT /usr/local/texlive/2015basic/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2015basic/texmf-var/web2c/pdftex/pdflatex.fmt
+PWD /Users/niejia/Desktop/NJU/thesis/latex/graduation_thesis/chapter
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt
 INPUT Introduction.tex
 OUTPUT Introduction.log
-INPUT /usr/local/texlive/2015basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

@@ -133,26 +133,40 @@
 % 中文摘要
 % \begin{abstract}
 
-% 在面向服务的体系结构下，分布式网络上的各类资源都可以封装成~Web~ 服务的形式，并以同一的接口规范对外发布。通过把这些相对简单且功能单一的~Web~服务按照特定的过程组合起来构件新的服务实现资源集成的过程，我们称之为~Web~服务组合。Web~服务组合的关键是：如何从众多功能相同的候选服务中，快速的选出满足消费者需求的服务。
-
-% 一个服务组合的流程是：消费者首先说明自己的业务需求，并指定自己对服务质量的偏好以及约束，消费者一般通过对服务质量的每一个属性指定一个权重值来体现自己的偏好；组合服务代理首先根据消费者的业务需求设计一个抽象组合服务模型，然后在每一个抽象服务所对应的候选服务集合中分别选择一个服务与之绑定，并把最后所形成的增值服务，也即组合服务返回给消费者，该组合服务一定是满足用户约束且~QoS~最优的。通常，一旦权重发生变化，组合服务代理就需要重新从候选服务集合中挑选出合适的服务进行服务组合并返回给消费者，然而这不是一种高效的做法。组合服务~Skyline~是一个组合服务集合，其所包含的组合服务不被其他组合服务支配，它通常被用来提高组合服务选择的效率。利用组合服务~Skyline~，当消费者偏好发生变化的时候，组合服务代理仅需在数量较小的组合服务~Skyline~ 中去挑选即可，大大提高了组合服务选择效率。除此之外，我们发现已有的研究一般基于``不同候选服务之间的服务质量是相互独立的''的假设。然而在实际应用中，一些候选服务的~QoS~往往依赖于其他候选服务，这种关系的存在会影响组合服务的~QoS，传统的方法在这种情况下不能选出~QoS~ 最优的组合服务。另外，随着移动网络的普及，以及诸多智能无人装置的涌现，~Web~ 服务的运行环境也呈现出多元化的趋势：不仅可以运行于云端的服务器上，也可以运行于这些智能无人装置中。由于这种设备所具有的移动性，使得候选服务的~QoS~值以及候选服务之间的~QoS~关联值是会随着设备的移动而发生变化。当这些值变化的时候，组合服务~Skyline~可能会随之变化，因此服务的移动性增加了组合服务Skyline~计算的复杂性。
-
-% 这些问题的存在使得组合服务~Skyline~的计算问题存在着诸多新的挑战。本文针对这些问题分别进行探讨，并给出了解决方案。具体来说，本文首先给出了一个支持~QoS~关联的服务模型，基于该模型提出了一种支持~QoS~关联的组合服务~Skyline~ 计算方法，并设计出若干剪枝规则，加速该方法的执行效率。然后针对存在移动~Web~服务的场景，提出了安全值范围的概念，基于安全值范围，我们降低了组合服务~Skyline~ 在~QoS~关联值变动情况下的计算代价，我们还给出了计算和更新安全值范围的方法。最后，通过一系列实验，验证了我们方法的有效性和正确性。
-
 % \keywords{服务组合，QoS~关联，组合服务~Skyline，移动Web服务，剪枝，安全值范围}
 
 % \end{abstract}
 
+\begin{englishabstract}
+
+在软件维护与演化的过程中，一份与代码实现相一致的需求规约能够提供有价值的信息以支持维护与演化任务的完成。然而，对需求规约的更新仍然是一项手工任务，需要付出较高的人工与时间成本。因此，维护人员通常直接更新代码，而不更新需求。这将导致需求的过时与失效，从而使软件系统的可维护性减弱。
+
+在代码更新后，识别代码变更所影响的潜在过时需求，能够帮助维护人员保持需求规约与代码实现的一致性。在软件工程领域，需求可追踪性是直接关联需求与代码的主要方式。但在实际中，需求可追踪性的使用有限，这是由于建立与维护需求与代码间完备的追踪关系代价高昂。因此，现有工作从分析代码变更的角度出发，识别其中影响需求的变更代码并构造其文本描述，并基于信息检索技术匹配变更代码描述与需求的文本，以发现需求规约中受影响的部分需求。然而，基于信息检索的方法存在词汇失配问题，导致方法的精度有限。如何提高受影响需求检测方法的精度是当前研究的重点。现有工作主要关注代码的变更部分，而变更部分通常只包含局部信息，与变更部分在结构上有依赖关系的上下文信息同样有价值。同时，在需求可追踪性，特征定位和概念分配等相关领域，代码依赖关系已经被用于与代码的文本信息相结合，以提高领域内方法的效果。然而，上述工作在分析代码依赖关系时，假设所有的代码依赖关系是同样重要的，没有对各个依赖关系的重要性加以区分，从而无法充分发挥代码依赖关系的作用。此外，对于被检测需求，维护人员可能仍然需要需要与变更有关的知识以完成对需求的更新。
+
+针对上述问题，本文完成了以下工作：
+\begin{enumerate}
+  \item 我们提出了一种代码依赖关系的紧密度分析方法，以区分代码依赖关系的重要性。同时，我们将此分析方法应用于需求可追踪性生成问题，提出了一种改进的需求到代码间追踪关系的生成方法TRICE（Traceability Recovery based on Information retrieval and ClosEness analysis），并在三个实验系统下验证了TRICE的有效性。
+  \item 在依赖关系紧密度分析有效性被验证的基础上，我们提出了一种基于代码依赖关系的过时需求自动检测与更新推荐方法，通过对代码依赖关系的紧密度分析，引入了与变更代码在结构上有紧密依赖的上下文代码信息。同时，方法能够推荐与需求更新相关的变更代码元素。我们在三个研究案例下设计并完成实验，验证了方法的有效性。
+  \item 我们实现了一个过时需求自动检测工具INFORM（IdeNtiFy Outdated RequireMents），并集成了基于代码依赖关系的过时需求自动检测与更新推荐方法，以辅助维护人员进行需求更新。
+\end{enumerate}
+
+\keywords{服务组合，QoS~关联，组合服务~Skyline，移动Web服务，剪枝，安全值范围}
+
+\end{englishabstract}
+
 % 英文摘要
 \begin{englishabstract}
 
-In the service-oriented architecture, resources distributed in the Internet are encapsulated as publically-accessible Web Services, which can be further orchestrated to make composite services with well-defined processes (also known as workflows). This process is called web service composition. The key to web service composition is how to efficiently select services from a large number of similar functionality services with satisfying the consumers' requirements.
+When maintaining and evolving software, a requirements specification which is consistent with the code implementations provides valuable knowledge for supporting several maintenance and evolution tasks. However, updating the requirements is still a manual task that is expensive and time consuming. Therefore, maintainers usually change the code directly and leave the requirements unchanged. This leads to requirements rapidly becoming outdated and useless, then weakening the maintainability of software system. 
 
-Composite service broker constructs a composite service which satisfies a consumer's preferences and constraints of QoS. But once the preferences change, the composite service broker needs to reselect the optimal one for the user by taking a comparison in the whole candidate services which is inefficiency. Composite service skyline is a set of composite services which are not dominated by others. Composite service skyline is usually used to improve the efficiency of composite service selection. When the weights of user's preferences change, the broker just need to traverse a small space to get the optimal one. State-of-the-art approach to computing composite service skyline assumes that candidate services of different tasks are independent, and the services are running in the non-mobile devices. But QoS correlations between services are commonly existing in practical applications. In addition, along with the spread of mobile network, and the appearance of smart autonomous devices, the runtime environment of web service tend to diversification: not only be a cloud service, but also a smart autonomous device. Because of the mobility of devices, it is clearly that services provided by the mobile devices have the feature of mobility. The composite service skyline may change, because QoS or correlated quality values of a service may change as mobile devices move.
+By identifying the impacted requirements when code is changed, the potential outdated requirements can facilitate the effort to keep the consistency between requirements specification and code implementations. In software maintenance, the main approach for contacting requirements with code is traceability. In practice, the use of traceability is limited because of the cost to completely tracing requirements to code is expensive. Therefor, from the perspective of code changes, the existing work first recognize the code changes which are impacting the requirements and construct textual descriptions for these changes, then using IR-based approach to tracing change descriptions to requirements in order to find the impacted parts of requirement specifications. However, the accuracy of IR-based approach is limited because of the vocabulary mismatch problem. Improving the accuracy of detecting impacted requirements is the main point for current research. Existing work focus on the changed parts of code but the changed parts usually contain only local information, the contexts which have structural dependencies with the changed ones may also provide valuable information. Meanwhile, in related fields like traceability, feature location and concept location, code dependencies have been proved to be valid for improving the corresponding approaches by combining with textual information. However, mentioned works assume that all code dependencies are equally important and limit the advantages of code dependencies. Besides, facing with the detected requirements, maintainers may still need more knowledge which is related with the code changes to finish updating the requirements.
 
-These issues cause a lot of new challenges to composite service skyline computing. In this paper, we investigate these issues respectively, and provide a solution for each of them. Specifically, we propose a service model supports QoS correlation, and based on this model, we put forward a method to compute composite service skyline. We present several pruning criteria based on which two pruning algorithms are proposed to accelerate our approach. Then a new concept of safe value range is presented aim to improve the efficiency of computing composite service skyline in mobile environment, we also propose two methods to compute and update safe value range respectively. At last, we conduct a series of experiments to evaluate the effectiveness and efficiency of our algorithms.
-
-
+For the above problems, we finished several works as following:
+\begin{enumerate}
+  \item We proposed an approach to measure the closeness of code dependencies. Moreover, we applied it to generate trace links between requirements and code, we proposed an enhanced approach called TRICE (Traceability Recovery based on Information retrieval and ClosEness analysis), and we evaluated TRICE on three different software systems.
+  \item As the evaluated effectiveness of closeness analyzing, we proposed an approach based on code dependencies to automatically detect outdated requirements and recommend knowledge about changes. We bring the contexts which are tight with the changed code in structure by analyzing the closeness of code dependencies. Meanwhile, our approach can recommend relevant code elements for updating requirements. We evaluated the approach on three different case studies.
+  \item We also develop a tool called INFORM (IdeNtiFy Outdated RequireMents) and integrating the above approach to help maintainers updating requirements.
+\end{enumerate}
 \englishkeywords{Service composition, QoS correlation, Composite service skyline, Mobile Web service, Pruning, Safe value range}
 
 \end{englishabstract}
@@ -185,6 +199,8 @@ These issues cause a lot of new challenges to composite service skyline computin
 \input{chapter/Traceability.tex}
 
 \input{chapter/RequirementUpdate.tex}
+
+\input{chapter/Tool.tex}
 
 \input{chapter/Conclusion.tex}
 

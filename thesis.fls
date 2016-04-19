@@ -356,6 +356,9 @@ INPUT figures/Connect_Commits.pdf
 INPUT figures/iTrust_Releases@30.pdf
 INPUT figures/Aqualush_Releases@30.pdf
 INPUT figures/Connect_Releases@30.pdf
+INPUT chapter/Tool.tex
+INPUT chapter/Tool.tex
+INPUT ./figures/inform/INFORM_Architecture.pdf
 INPUT chapter/Conclusion.tex
 INPUT chapter/Conclusion.tex
 INPUT thesis.bbl

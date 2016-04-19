@@ -1,35 +1,37 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 追踪关系生成方法}}{5}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 过时需求，受影响需求与被检测需求}}{11}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 活动过程：利用过时需求自动检测方法的维护过程}}{12}{figure.2.3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 追踪关系生成方法}}{7}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 过时需求，受影响需求与被检测需求}}{13}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 活动过程：利用过时需求自动检测方法的维护过程}}{14}{figure.2.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{18}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{20}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{VSM}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $iTrust_{JS}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $iTrust_{LSI}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces { $Gantt_{VSM}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces { $Gantt_{JS}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces { $Gantt_{LSI}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces { $jHotDraw_{VSM}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces { $jHotDraw_{JS}$ }}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces { $jHotDraw_{LSI}$ }}}{28}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{20}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{22}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{VSM}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $iTrust_{JS}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $iTrust_{LSI}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces { $Gantt_{VSM}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces { $Gantt_{JS}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces { $Gantt_{LSI}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces { $jHotDraw_{VSM}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces { $jHotDraw_{JS}$ }}}{30}{figure.3.3}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces { $jHotDraw_{LSI}$ }}}{30}{figure.3.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{30}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 需求文本SRS238的内容}}{31}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 与设置灌溉区域的湿度值上限功能有关的部分函数及其依赖结构}}{31}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于代码依赖关系的过时需求自动检测与更新推荐方法流程}}{32}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Commits.}}{43}{figure.4.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Commits}$ }}}{43}{figure.4.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Commits}$ }}}{43}{figure.4.5}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Commits}$ }}}{43}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{44}{figure.4.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Releases}$ }}}{44}{figure.4.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Releases}$ }}}{44}{figure.4.6}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Releases}$ }}}{44}{figure.4.6}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 与日志记录、展示功能有关的部分函数及其依赖结构}}{32}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 需求文本SRS238的内容}}{33}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 与设置灌溉区域的湿度值上限功能有关的部分函数及其依赖结构}}{33}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于代码依赖关系的过时需求自动检测与更新推荐方法流程}}{34}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Commits.}}{45}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Commits}$ }}}{45}{figure.4.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Commits}$ }}}{45}{figure.4.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Commits}$ }}}{45}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces F-measure/cut curves for iTrust, AquaLush and Connect between Release.}}{46}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { $iTrust_{Releases}$ }}}{46}{figure.4.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { $AquaLush_{Releases}$ }}}{46}{figure.4.6}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { $Connect_{Releases}$ }}}{46}{figure.4.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces INFORM的系统体系结构图}}{49}{figure.5.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
